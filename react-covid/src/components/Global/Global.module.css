@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.global__title {
+    color: #06D6A0;
+    font-size: 2.44rem;
+  }
+  
+  .global__subTitle {
+    color: #118AB2;
+    margin-top: 0;
+    font-size: 1.59rem;
+  }
+
+.kotak {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+    height: 275px;
+    background-color: #ffff;
+    box-shadow: 10px 10px lightblue;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    border-radius: 1rem;
+}
+
+.container_kotak {
+    display: flex;
+    flex-direction: row;
+}
+
+.kotak_title {
+    color: #118AB2;
+}
